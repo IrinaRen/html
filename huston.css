@@ -1,0 +1,74 @@
+/* Требования:
+
+-Контент занимает 70% ширины страницы.
+-Контент выровнен по середине.
+-Заголовки всех уровней выполнены шрифтом без засечек.
+-Верхний отступ заголовков установлен больше нижнего (например, 1.5em), чтобы соблюсти правило внутреннего и внешнего.
+-Заголовки первого уровня имеют размер 32px.
+-Таблицы имеют непрерывные границы чёрного цвета толщиной 1px.
+-Подписи под картинками выполены курсивом.
+-Картинки обтекаются текстом. Картинки справа, текст слева. */
+
+
+body {
+    margin: auto;
+    max-width:70%;
+    font-size: 1.2rem;
+  }
+    
+h1, h2, h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1.5em;
+}
+
+h1{
+    font-size: 32px;
+}
+
+.standard, td, th {
+    border: 1px solid black;
+}
+
+figure {
+    display: table;
+    float: right;
+    border-top: none;
+    padding-top: 0;
+}
+
+  figcaption {
+    display: table-caption;
+    caption-side: top;
+    text-align: center;
+    font-style: italic;
+    /* font-size: smaller; */
+    /* border: black; */
+    /* padding: 0.5em; */
+    border: thin silver solid;
+    border-bottom: none;
+  }
+
+
+
+
+
+
+
+
+  
+/* img {
+    border-top: none;
+    padding-top: 0;
+  }
+  figcaption {
+    padding: 0.5em;
+    border: thin silver solid;
+    border-bottom: none;
+  } */
+
+  /* display: table; */
+  /* width: 10%; */
+  /* text-indent: 0; */
+  /* margin: 0.5em; */
+    /* padding: 0.5em; */
+    /*  caption-side: top; */
